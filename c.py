@@ -140,7 +140,7 @@ def scrape_with_target_star(url, company, target_path='./'):
           num_reviews += len(new_reviews)
           if num_reviews % 100 == 0:
               print(len(star1_reviews), len(star2345_reviews), " reviews, sleep for 60sec")
-              time.sleep(60)
+              time.sleep(80)
         except:
           print("May need to wait a little bit longer... ", "now at page ", i)
           time.sleep(60 * 5)
